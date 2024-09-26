@@ -1,0 +1,55 @@
+.features {
+  background-color: #e8e8e8;
+  padding: 60px 0;
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+
+    .feature-item {
+      text-align: center;
+      max-width: 300px;
+
+      h2 {
+        font-size: 15px;
+        font-weight: bold;
+        height: 28px;
+        margin-bottom: 15px;
+        padding: 12px 0 0 59px;
+      }
+
+      #clean {
+        background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite/images/pen_icon.png) no-repeat
+          left;
+      }
+
+      #responsive {
+        background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite//images/screen_icon.png)
+          no-repeat left;
+      }
+
+      #fully {
+        background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite/images/layer_icon.png) no-repeat
+          left;
+      }
+
+      #ready {
+        background: url(https://www.graphicsfuel.com/wp-content/uploads/2013/01/BisLite//images/paperplane_icon.png)
+          no-repeat left;
+      }
+
+      p {
+        color: #777;
+      }
+
+      a {
+        color: #5ac7c2;
+        font-weight: bold;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

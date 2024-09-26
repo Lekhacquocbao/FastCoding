@@ -1,0 +1,52 @@
+.footer {
+    background-color: #333;
+    padding: 40px 0;
+    color: white;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  
+      .about,
+      .explore,
+      .contact {
+        flex: 1;
+        min-width: 200px;
+  
+        h4 {
+          font-size: 18px;
+          margin-bottom: 20px;
+          color: #5ac7c2;
+        }
+  
+        ul {
+          list-style: none;
+          padding: 0;
+  
+          li {
+            margin-bottom: 10px;
+            a {
+              text-decoration: none;
+              color: white;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+  
+        p {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  
+    .copyright {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  }
+  

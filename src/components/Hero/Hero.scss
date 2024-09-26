@@ -1,0 +1,14 @@
+.hero {
+  background-color: #81e4ed;
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .hero-image {
+    img {
+      max-width: 100%;
+      border: 2px solid red;
+    }
+  }
+  
+}
